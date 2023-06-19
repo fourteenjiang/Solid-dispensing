@@ -1,7 +1,10 @@
 #  Solid-Dispensing Station
 
-This repo is the implementation of paper "Autonomous Biomimetic Solid Dispensing Using a Dual Arm Robotic Manipulator" as well as the follow-ups. The following diagram shows Communication between devices and the control flow of the dispensing station :
-![readme.png](https://github.com/fourteenjiang/Solid-dispensing/blob/96607c384b5fb373e05df6f81d1b85da383d3a02/readme.png)
+This repo is the implementation of paper "Autonomous Biomimetic Solid Dispensing Using a Dual Arm Robotic Manipulator" as well as the follow-ups. The following diagram shows the control flow of the dispensing station :
+![readme1.png](https://github.com/fourteenjiang/Solid-dispensing/blob/main/readme1.png)
+
+This figure explains the communication between different devices:
+![readme2.png](https://github.com/fourteenjiang/Solid-dispensing/blob/main/readme2.png)
 
 
 It currently the following contents including station CAD models, dispensing results and code, please see the content tree. 
