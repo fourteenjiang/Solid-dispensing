@@ -11,10 +11,11 @@ This repo is structured as follows:
 ## Code
 
 The diagram below shows the controller design for the solid dispensing process, which is reflected in the code structure:
-![readme1.png](https://github.com/fourteenjiang/Solid-dispensing/blob/main/readme1.png)
+![readme](https://github.com/fourteenjiang/Solid-dispensing/assets/86227785/a0136920-74c6-4a9f-b274-d4e3f88ffbd6)
 
 Futhermore, the figure below illustrates the system setup in terms of communication and data flow:
-![readme2.png](https://github.com/fourteenjiang/Solid-dispensing/blob/main/readme2.png)
+![readme2](https://github.com/fourteenjiang/Solid-dispensing/assets/86227785/5629f46d-e11d-4449-8f17-f99b07ddb4a7)
+
 
 To clarify, two programs are primarily responsible for the transfer of data between the different devices (robot, control PC, and balance) while the third program contains all robot-related code for task execution. Inside the code folder you will find:
 
