@@ -1,0 +1,32 @@
+
+MODULE user (SYSMODULE)
+
+ ! Predefined user data
+ !*********************
+
+ ! Declaration of numeric registers reg1...reg5
+ VAR num reg1 := 0;
+ VAR num reg2 := 0;
+ VAR num reg3 := 0;
+ VAR num reg4 := 0;
+ VAR num reg5 := 0;
+
+ ! Declaration of stopwatch clock1
+ VAR clock clock1;
+ TASK PERS tooldata GripperLeft:=[TRUE,[[0,0,136],[1,0,0,0]],[0.262,[7.8,11.9,50.7],[1,0,0,0],0.00022,0.00024,9E-05]];
+ TASK PERS tooldata GripperLeftCamera:=[TRUE,[[-7.3,28.3,35.1],[0.707107,-0.707107,0,0]],[0.262,[7.8,11.9,50.7],[1,0,0,0],0.00022,0.00024,9E-05]];
+ TASK PERS tooldata GripperLeftVaccum:=[TRUE,[[63.5,18.5,37.5],[0.707107,0,0.707107,0]],[0.262,[7.8,11.9,50.7],[1,0,0,0],0.00022,0.00024,9E-05]];
+ TASK PERS tooldata spikeleft:=[TRUE,[[166.924,17.8202,35.9566],[0.707107,0,0.707107,0]],[0.262,[7.8,11.9,50.7],[1,0,0,0],0.00022,0.00024,9E-05]];
+
+ ! Template for declaration of workobject wobj1
+ !TASK PERS wobjdata wobj1 := [FALSE, TRUE, "", [[0, 0, 0],[1, 0, 0, 0]],[[0, 0, 0],[1, 0, 0, 0]]];
+	PROC Routine2()
+		<SMT>
+	ENDPROC
+	PROC safeCopy()
+		g_GripIn;
+		MoveJ [[540.60,46.29,364.46],[0.783732,0.388931,0.355214,0.329119],[-1,-1,0,4],[121.064,9E+09,9E+09,9E+09,9E+09,9E+09]], v7000, z150, GripperLeft;
+		MoveJ [[315.61,22.64,227.73],[0.619998,0.680367,0.319426,0.2251],[-1,-1,0,4],[142.518,9E+09,9E+09,9E+09,9E+09,9E+09]], v4000, z200, GripperLeft;
+	ENDPROC
+
+ENDMODULE
