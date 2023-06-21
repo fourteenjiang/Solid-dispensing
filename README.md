@@ -4,7 +4,7 @@ This repo contains the codebase for the paper "Autonomous Biomimetic Solid Dispe
 
 This repo is structured as follows: 
 - [Code](#code)
-- [Dispensing results](#dispensing-results)
+- [Experimental results](#experimental-results)
 - [Station CAD models](#station-cad-models)
 
 
