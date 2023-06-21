@@ -23,7 +23,7 @@ To clarify, two programs are primarily responsible for the transfer of data betw
 
   - File_client.py： Responsible for setting the target weight for the solid dispensing operation and to store the results of the dispensing process to json files.
 
-  - Robot YuMi code： Contains all the code for robot task execution. For more info, please see [here](https://github.com/fourteenjiang/Solid-dispensing/blob/172dcfe219b5fe842aeb9c061d4efa964f9e0266/Code/Robot%20YuMi%20code/README.md) for more info.
+  - Robot YuMi code： Contains all the code for robot task execution. For more info, please see [here](https://github.com/fourteenjiang/Solid-dispensing/blob/main/Code/Robot%20YuMi%20code/README.md) for more info.
 
 ## Experimental results
 
