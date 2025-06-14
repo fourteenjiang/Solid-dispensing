@@ -1,0 +1,38 @@
+Title: Application of Robotics and Artificial Intelligence in Chemical Laboratories
+Author: Ying Jiang
+Degree: Doctor of Philosophy (PhD)
+Institution: University of Liverpool
+Repository link: 
+
+It has come to the author’s attention that some figures in the final version of the doctoral thesis were included without full citation of the original sources. The omissions were unintentional and occurred during the final editing process.
+
+Specifically:
+
+Figure 2.2: Commercial solid dispensing platform, from left to right: Chemspeed GDU-Pfd, Chemspeed GDU-S SWILE, and Chronect XPR robotic systems.
+
+Correction: The figure contains images sourced from the following:
+
+Chemspeed GDU-Pfd:
+Source: Chemspeed Technologies AG, 2022, retrieved from
+https://www.chemspeed.com/media-center/video/gdu-p/
+
+Chemspeed SWILE:
+Source: Chemspeed Technologies AG, 2022, retrieved from
+https://www.chemspeed.com/media-center/video/swile-pick-and-decision/
+
+Chronect XPR:
+Source: Laboratory Solutions from METTLER TOLEDO via YouTube, 2022, retrieved from
+https://www.youtube.com/watch?v=oq4Xbr3FDD0
+
+Figure 2.3: Architecture of the VGG-16 neural network.
+
+Correction: This figure was sourced from:
+ThePinokyo on Kaggle, 2021, retrieved from
+https://www.kaggle.com/code/thepinokyo/fruit-detection-with-vgg-16
+
+These figures were used solely for academic and non-commercial purposes under the principle of fair use, with the intention of illustrating relevant technologies and architectures cited in the thesis. The author regrets the oversights and formally acknowledges the original sources.
+
+This correction notice is issued voluntarily by the author in the interest of transparency and academic integrity.
+
+Date: June 14, 2025
+Signature: Ying Jiang
